@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --bg: #040D1F;
+    --orenge: #F18128;
+    --lightorenge: #ED8E00;
+    --white: #fff;
+    --grey: #C8C8C8;
+    --black: #000;
+    --CB: 'CB' , sans-serif;
+    --CR: 'CR' , sans-serif;
+    --MB: 'MB' , sans-serif;
+}
+
+body{
+    background: var(--bg);
+    color: var(--white);
+    font-family: var(--CR);
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
